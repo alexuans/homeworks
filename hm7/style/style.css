@@ -1,0 +1,26 @@
+main {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.position {
+  font-weight: bold;
+}
+.name {
+  font-style: italic;
+}
+th {
+  text-transform: uppercase;
+}
+a:link {
+  color: #00f;
+}
+a:visited {
+  color: #005;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+.skils {
+  list-style-type: square;
+}
