@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+th,
+td {
+  text-align: left;
+  min-width: 100px;
+  border: transparent 5px solid;
+}
+.contact-field {
+  border: 1px dashed #7b61ff;
+  border-radius: 5px;
+  padding: 16px;
+}
+.contacts-field-title {
+  padding: 0px 5px 5px 5px;
+}
+input,
+select,
+textarea {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 4px 16px;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  background: #f8fafc;
+  border-radius: 4px;
+  min-height: 28px;
+  min-width: 40rem;
+  padding-left: 10px;
+}
+textarea {
+  padding-top: 8px;
+  min-width: 40rem;
+  min-height: 10rem;
+}
+select {
+  display: block;
+  background: url("./img/mdi_arrow_drop_down.png") no-repeat center right,
+    #f8fafc;
+  min-width: 10rem;
+  text-align: center;
+}
+.required-email::after {
+  content: "*";
+  color: red;
+}
+input::placeholder {
+  line-height: 143%;
+  color: #b8bcca;
+}
+input:invalid {
+  border-color: red solid 1px;
+}
+input[type="submit"] {
+  padding: 4px 16px;
+  width: 92px;
+  height: 32px;
+  background: #0048d9;
+  border-radius: 6px;
+  color: #ffffff;
+}
+input[type="submit"]:hover {
+  background: #002266;
+  cursor: pointer;
+}
+input:focus,
+select:focus {
+  border: #47484a solid 1px;
+}
